@@ -63,6 +63,7 @@ import helixbridge from "./helixbridge"
 import oooo from "./oooo";
 import memebridge from "./memebridge"
 import bunnyfi from "./bunnyfi"
+import fastbtc from "./rootstock-fastbtc-bridge"
 
 export default {
   polygon,
@@ -129,6 +130,7 @@ export default {
   helixbridge,
   memebridge,
   bunnyfi,
+  fastbtc
 } as {
   [bridge: string]: BridgeAdapter;
 };

@@ -1368,4 +1368,17 @@ export default [
       bitlayer: "btr",
     },
   },
+  {
+    id: 68,
+    displayName: "FastBTC",
+    bridgeDbName: "fastbtc",
+    iconLink: "chain:rootstock",
+    largeTxThreshold: 10000,
+    url: "https://rootstock.io/",
+    chains: ["Rootstock", "Bitcoin"],
+    chainMapping: {
+      rootstock: "rsk",
+    },
+    destinationChain: "Bitcoin",
+  },
 ] as BridgeNetwork[];
