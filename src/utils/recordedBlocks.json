@@ -79,5 +79,6 @@
   "crowdswap:arbitrum": { "startBlock": 237073033, "endBlock": 252086093 },
   "crowdswap:optimism": { "startBlock": 123302167, "endBlock": 125190128 },
   "crowdswap:defi": { "startBlock": 863892, "endBlock": 125190128 },
-  "crowdswap:rootstock": { "startBlock": 6795853, "endBlock": 125190128 }
+  "crowdswap:rootstock": { "startBlock": 6795853, "endBlock": 125190128 },
+  "flyover:rsk": { "startBlock": 6954971, "endBlock": 7003640 }
 }

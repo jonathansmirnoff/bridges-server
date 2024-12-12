@@ -1750,4 +1750,17 @@ export default [
     chains: ["Ethereum", "Zircuit"],
     destinationChain: "Zircuit",
   },
+  {
+    id: 80,
+    displayName: "PowPeg Fast Mode",
+    bridgeDbName: "flyover",
+    iconLink: "icons:rsk",
+    largeTxThreshold: 10000,
+    url: "https://powpeg.rootstock.io/",
+    chains: ["Rootstock", "Bitcoin"],
+    chainMapping: {
+      rootstock: "rsk",
+    },
+    destinationChain: "Bitcoin",
+  },
 ] as BridgeNetwork[];
